@@ -1,0 +1,9 @@
+# Virtual env
+.venv/
+
+# Data
+data/
+
+# Mac
+.DS_Store
+
