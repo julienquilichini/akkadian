@@ -1,6 +1,9 @@
 # Virtual env
 .venv/
 
+# Env
+.env
+
 # Data
 data/
 
