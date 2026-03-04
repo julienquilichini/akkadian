@@ -105,6 +105,7 @@ dependencies = [
     { name = "accelerate" },
     { name = "datasets" },
     { name = "evaluate" },
+    { name = "hf" },
     { name = "ipykernel" },
     { name = "jupyter" },
     { name = "kaggle" },
@@ -121,6 +122,7 @@ requires-dist = [
     { name = "accelerate", specifier = ">=1.12.0" },
     { name = "datasets", specifier = ">=4.6.1" },
     { name = "evaluate", specifier = ">=0.4.6" },
+    { name = "hf", specifier = ">=1.5.0" },
     { name = "ipykernel", specifier = ">=7.2.0" },
     { name = "jupyter", specifier = ">=1.1.1" },
     { name = "kaggle", specifier = ">=2.0.0" },
@@ -586,6 +588,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/01/ee/02a2c011bdab74c6fb3c75474d40b3052059d95df7e73351460c8588d963/h11-0.16.0.tar.gz", hash = "sha256:4e35b956cf45792e4caa5885e69fba00bdbc6ffafbfa020300e549b208ee5ff1", size = 101250, upload-time = "2025-04-24T03:35:25.427Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl", hash = "sha256:63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86", size = 37515, upload-time = "2025-04-24T03:35:24.344Z" },
+]
+
+[[package]]
+name = "hf"
+version = "1.5.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "huggingface-hub" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/f7/9e/0083d4789faa2e36b756acb369909fc3bcfe3e977d4c82d90013b26183f2/hf-1.5.0.tar.gz", hash = "sha256:4238f570f0ed8e16ca15b8161f4b0f253fcc3d13de5c21f63485be2445fc4ffb", size = 2476, upload-time = "2026-02-26T15:35:26.938Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cc/43/bd5411cc85939ec8a7c4b0d1313cb2fbd27532fb08480fd581572d206461/hf-1.5.0-py3-none-any.whl", hash = "sha256:2f6d66e3f6c6cd8efebe9c11286d4b30ad124cb8fac3bcffa108f42c031c2079", size = 2402, upload-time = "2026-02-26T15:35:25.648Z" },
 ]
 
 [[package]]

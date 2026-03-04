@@ -8,6 +8,7 @@ dependencies = [
     "accelerate>=1.12.0",
     "datasets>=4.6.1",
     "evaluate>=0.4.6",
+    "hf>=1.5.0",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "kaggle>=2.0.0",
